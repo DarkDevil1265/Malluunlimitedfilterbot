@@ -243,12 +243,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Channel", url="https://t.me/malluinstafollowers"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🔴Join Channel🔴", url="https://t.me/malluinstafollowers"),
+                    InlineKeyboardButton("⚡️About Me⚡️", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("Join Group", url="https://t.me/malluinstaufollowers"),
-                    InlineKeyboardButton("details about group", url="https://t.me/Malluinstabot")
+                    InlineKeyboardButton("🔰Join Group🔰", url="https://t.me/malluinstaufollowers"),
+                    InlineKeyboardButton("⭕️details about group⭕️", url="https://t.me/Malluinstabot")
                 ]
             ]
         ),
@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="ഇപ്പ തരാം👹👹")
+                        "🔰SOURCE CODE🔰", url="ഇപ്പ തരാം👹👹")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
