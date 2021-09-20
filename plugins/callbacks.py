@@ -1,7 +1,7 @@
 import os
 import ast
 
-from pyrogram import Client as trojanz
+from pyrogram import Client as RJMALLU
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 if bool(os.environ.get("WEBHOOK", False)):
@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Channel", url="https://t.me/malluinstafollowers"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🔴Join Channel🔴", url="https://t.me/malluinstafollowers"),
+                    InlineKeyboardButton("⚡️About Me⚡️", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("Join Group", url="https://t.me/malluinstaufollowers"),
-                    InlineKeyboardButton("details about group", url="https://t.me/Malluinstabot")
+                    InlineKeyboardButton("🔰Join Group🔰", url="https://t.me/malluinstaufollowers"),
+                    InlineKeyboardButton("⭕️details about group⭕️", url="https://t.me/Malluinstabot")
                 ]
             ]
         )
@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url=" ഇപ്പ  തരാം👹👹 ")
+                        "🔰SOURCE CODE🔰", url=" ഇപ്പ  തരാം👹👹 ")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
